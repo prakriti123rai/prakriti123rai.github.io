@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg-image">
+            <img class="bg-image" src="" alt="weather">
+        </div>
+        <div class="bg-text">
+            <h2 class="display-5">What's the weather like?</h2>
+            <input id="input" type="text" placeholder="Write your city here">
+            <div class="weather-info">
+                <h3 class="city"></h3>
+                <h4 class="date"></h4>
+                <h1 class="temperature"></h1>
+                <h5 class="description"></h5>
+                <h6 class="temperature-range"></h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="./assets/js/background.js"></script>
+    <script src="./assets/js/getWeather.js"></script>
+</body>
+</html>
